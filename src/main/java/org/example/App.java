@@ -11,8 +11,7 @@ public class App
     public static void main( String[] args )
     {
         String state;
-        BigDecimal orderAmount, subtotal, total, totalTax;
-        BigDecimal tax = BigDecimal.valueOf(0);
+        BigDecimal orderAmount, subtotal, total, tax, totalTax;
         NumberFormat formatter = NumberFormat.getCurrencyInstance();
         Scanner input = new Scanner(System.in);
         System.out.println("What is the order amount? ");
